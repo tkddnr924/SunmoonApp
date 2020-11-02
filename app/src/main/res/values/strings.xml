@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SunmoonApp</string>
+    <string name="logo_description">Logo Description</string>
+    <string name="text_id">ID</string>
+    <string name="text_pw">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_join">Join</string>
 </resources>
