@@ -16,17 +16,10 @@ public class JoinActivity extends AppCompatActivity {
     }
 
     public void joinUser (View v) {
-        String userID = ((EditText) findViewById(R.id.et_userid)).getText().toString();
-        String userPW = ((EditText) findViewById(R.id.et_userPassword)).getText().toString();
         String userEmail = ((EditText) findViewById(R.id.et_userEmail)).getText().toString();
+        String userPW = ((EditText) findViewById(R.id.et_userPassword)).getText().toString();
         String userName = ((EditText) findViewById(R.id.et_userName)).getText().toString();
         String userNickName = ((EditText) findViewById(R.id.et_userNickName)).getText().toString();
-
-        if (userID.equals("")) {
-            Toast.makeText(this, "ID is Required!", Toast.LENGTH_LONG).show();
-            findViewById(R.id.et_userid).requestFocus();
-            return;
-        }
 
         if (userPW.equals("")) {
             Toast.makeText(this, "Password is Required!", Toast.LENGTH_LONG).show();
