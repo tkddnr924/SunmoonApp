@@ -40,10 +40,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_toStartOf="@+id/tv_myMessage"
         android:layout_toLeftOf="@+id/tv_myMessage"
         android:text="11:11" />
+
+    <TextView
+        android:id="@+id/tv_sendDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toStartOf="@+id/tv_sendTime"
+        android:layout_toLeftOf="@+id/tv_sendTime"
+        android:text="2020-01-01" />
 </RelativeLayout>
